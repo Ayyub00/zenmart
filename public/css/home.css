@@ -896,6 +896,7 @@ bottom: 15px;
   justify-content: center;
 
   background-image: url(../icons/event_bg.png);
+  background-size: cover;
 }
 
 .event_frame .container {
