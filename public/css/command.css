@@ -1,3 +1,7 @@
+:root {
+  --font: "Jost";
+}
+
 html,
 body {
   margin: 0;
@@ -88,7 +92,7 @@ p {
   outline: none;
 
   color: #041e42;
-  font-family: Jost;
+  font-family: var(--font);
   font-size: 15px;
   font-style: normal;
   font-weight: 400;
@@ -105,7 +109,7 @@ p {
 
   color: #626974;
 
-  font-family: Jost;
+  font-family: var(--font);
   font-size: 15px;
   font-style: normal;
   font-weight: 400;
@@ -172,7 +176,7 @@ p {
 
 .navbar_frame .box_info_box span {
   color: #fff;
-  font-family: Jost;
+  font-family: var(--font);
   font-size: 16px;
   font-style: normal;
   font-weight: 500;
@@ -181,7 +185,7 @@ p {
 
 .navbar_frame .box_info_box strong {
   color: #fff;
-  font-family: Jost;
+  font-family: var(--font);
   font-size: 16px;
   font-style: normal;
   font-weight: 500;
@@ -247,7 +251,7 @@ p {
 .navbar_frame .browse_box span {
   color: #fff;
 
-  font-family: Jost;
+  font-family: var(--font);
   font-size: 16px;
   font-style: normal;
   font-weight: 500;
@@ -273,7 +277,7 @@ p {
 
 .navbar_frame .route_menu a {
   color: #fff;
-  font-family: Jost;
+  font-family: var(--font);
   font-size: 16px;
   font-style: normal;
   font-weight: 500;
@@ -292,7 +296,7 @@ p {
   color: #fff;
   margin-left: 20px;
 
-  font-family: Jost;
+  font-family: var(--font);
   font-size: 16px;
   font-style: normal;
   font-weight: 500;
